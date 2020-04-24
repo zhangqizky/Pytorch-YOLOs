@@ -6,3 +6,4 @@
 - dataset.py 数据的加载，包括数据增强，bbox处理，label生成
 - visualize.py 如果可以使用visdom，可以对训练过程做一个可视化
 - yoloLoss.py yolo超复杂的损失函数定义
+- predict.py 预测文件，运行download_pretrained_weights.sh下载预训练模型，放在本目录下，运行即可。
